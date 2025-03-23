@@ -1,0 +1,28 @@
+:root {
+  font-family: system-ui, noto-sans, source-code-pro, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@font-face{
+  font-family: noto-sans;
+  src: url(fonts/Noto-Sans/NotoSans-Regular.ttf);
+  font-weight: normal;
+}
+@font-face{
+  font-family: source-code-pro;
+  src: url(fonts/Source-Code-Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+
+body{
+  background-color: purple;
+}
+
+h1{
+  font-family: "source-code-pro";
+  font-weight: "bold"
+}
+
+p{
+  font-family: "noto-sans";
+}
